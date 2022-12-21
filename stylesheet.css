@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.top-menu li {
+  padding: 0.5rem;
+}
+
+main > section {
+  /* Or you could say main > *   you can remove these comments after reading */
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.date {
+  text-align: right;
+  padding: 0 1rem;
+}
+
+.table {
+  border: 3px solid;
+}
+
+button {
+  box-shadow: 3px 4px #888;
+  width: 10vw;
+}
+
+.form input {
+  width: 245.77px;
+}
+
+.for-contact {
+  width: 80vw;
+  margin: auto;
+}
+
+.for-contact ul {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.a-border {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+}
+
+footer {
+  margin: 1rem;
+}
+
+.listNav,
+.addNav,
+.contactNav {
+  cursor: pointer;
+}
